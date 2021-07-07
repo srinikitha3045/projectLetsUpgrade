@@ -1,0 +1,388 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height:80px;
+    width:100%;
+    /* background-color: rgba(16,128,234,1); */
+    display:flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    /* height:70px; */
+    width:90%;
+    /* background-color: red; */
+    display: flex;
+}
+.header_container{
+    justify-content: space-between;
+}
+.logo{
+    height:80px; 
+    width:15%;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 80px;
+}
+.nav{
+    height: 80px;
+    width:35%;
+    /* background-color: green; */
+    display: flex;
+}
+.nav_item{
+    width:20%;
+    height: 80px;
+    /* background-color: grey;
+    font-size: 18px; */
+    font-family: 'Segoe UI';
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+.nav_item:hover{
+    background-color: white;
+    color:#1b318e;
+}
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+    color: white;
+}
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_text{
+    height: 400px;
+    width: 50%;
+    background-color:rgba(16,128,234,0.7);
+    font-family: 'Segoe UI';
+    display: flex;
+    align-items: center;
+}
+.banner_title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.banner_desc{
+    margin-bottom: 30px;
+}
+.padd{
+    padding: 50px;
+    /* background-color: red; */
+}
+.banner_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+.banner_btn:hover{
+    background-color: white;
+    color: rgba(16,128,234,1);
+}
+.services{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.service{
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service_img{
+    width: 40%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+.service_details{
+    width: 60%;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.service_padd{
+    padding: 20px;
+}
+.service_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color:rgba(16,128,234,1);
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.service_title{
+    margin-bottom: 15px ;
+}
+.service_desc{
+    margin-bottom: 50px;
+}
+
+/* css for about */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+    align-items: center;
+}
+.about_container{
+    margin-top: 30px;
+    /* background-color: red; */
+    line-height: 30px;
+    display: inline;
+}
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+
+/* css for highlight */
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(16,128,234,1); 
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.highlight_container{
+    justify-content: space-between;
+}
+.high_ele{
+    width: 22%;
+    height: 230px;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: white;
+}
+.high_title{
+    font-size: 60px;
+}
+.high_desc{
+    font-size: 25px;
+}
+
+/* css for quote */
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI';
+}
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+}
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.quote_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color:rgba(16,128,234,1);
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/* css for portfolio */
+.portfolio{
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: #e4e4e4;
+    font-family: 'Segoe UI';
+}
+.portfolio_container{
+    flex-wrap: wrap;
+    /* margin-top: 30px; */
+    width: 100%;
+}
+.project{
+    width: 25%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+}
+.p1{
+    background-image: url('https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.p2{
+    background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.p3{
+    background-image: url('https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.p4{
+    background-image: url('https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.p5{
+    background-image: url('https://images.pexels.com/photos/2570139/pexels-photo-2570139.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.p6{
+    background-image: url('https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.p7{
+    background-image: url('https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.p8{
+    background-image: url('https://images.pexels.com/photos/6320/smartphone-vintage-technology-music.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+
+}
+.project_title{
+    color: white;
+    width: 100%;
+    height: 200px;
+    text-indent: 30px;
+    line-height: 200px;
+    background-color: rgba(16,128,234,0.5);
+    cursor: pointer;
+    transition: .4s;
+}
+.project_title:hover{
+    height:400px;
+}
+
+/* footer */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #353535;
+    display:flex;
+    justify-content: center;
+}
+.footer_child{
+    height: 300px;
+    width: 25%;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: gray; */
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+}
+.child1{
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+ul{
+    margin-top: 40px;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+.first{
+    font-size: 22px;
+}
+.child4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    /* width: 80%; */
+    justify-content: space-around;
+}
+.social_icon{
+    height: 40px;
+    width: 40px;
+    /* background-color: white; */
+    background-size: cover; 
+}
+.i1{
+    background-image: url('./images/fb.png');
+}
+.i2{
+    background-image: url('./images/google.png');
+}
+.i3{
+    background-image: url('./images/insta.png');
+}
+.i4{
+    background-image: url('./images/linkedin.png');
+}
+
